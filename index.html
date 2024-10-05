@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="container">
+          <div class="form__body">
+            
+            <div class="form__right">
+              <form action="">
+                <div class="nameandphone">
+                  <input
+                    type="text"
+                    id="name"
+                    class="box"
+                    placeholder="Họ và tên"
+                  />
+                  <input
+                    type="number"
+                    id="phone"
+                    placeholder="Số điện thoại"
+                    class="box"
+                  />
+                </div>
+                <input
+                  class="box"
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                />
+
+                <p class="testEN desc__form">
+                  Bạn có muốn làm bài kiểm tra tiếng Anh miễn phí?
+                </p>
+                <label class="desc__form">
+                  <input type="radio" name="english" id="english_yes" /><span
+                    id="text_co"
+                    >Có</span
+                  >
+                </label>
+                <label class="desc__form">
+                  <input type="radio" name="english" id="english_no" /><span
+                    id="text_co"
+                    >Không</span
+                  >
+                </label>
+
+                <div class="bacdaihoc">
+                  <p class="desc__form">Bạn dự định theo học bậc :</p>
+                  <input type="radio" name="degree" id="undergrad" />
+                  <label class="desc__form" for="undergrad"
+                    ><span id="text_co">Đại học</span>
+                  </label>
+                  <input type="radio" name="degree" id="postgrad" />
+                  <label class="desc__form" for="postgrad"
+                    ><span id="text_co">Sau đại học</span>
+                  </label>
+                </div>
+                <div class="ctrinh">
+                  <p class="desc__form">Chương trình:</p>
+                  <label class="desc__form">
+                    <input type="radio" name="program" id="standard" />
+                    <span id="text_co">Tiêu chuẩn</span>
+                  </label>
+                  <label class="desc__form">
+                    <input type="radio" name="program" id="special" />
+                    <span id="text_co">Đặc biệt</span>
+                  </label>
+                  <label class="desc__form">
+                    <input type="radio" name="program" id="international" />
+                    <span id="text_co">Liên kết quóc tế</span>
+                  </label>
+                </div>
+
+                <label class="desc__form" id="nh" for="">Ngành học :</label>
+
+                <br />
+                <select name="" id="nganhhoc" class="box">
+                  <option value="" class="desc__form" selected>
+                    Chọn ngành học quan tâm
+                  </option>
+                  <option value="" class="desc__form">
+                    Công Nghệ thông Tin
+                  </option>
+                  <option value="" class="desc__form">
+                    Công Nghệ thông Tin
+                  </option>
+                  <option value="" class="desc__form">
+                    Công Nghệ thông Tin
+                  </option>
+                  <option value="" class="desc__form">
+                    Công Nghệ thông Tin
+                  </option>
+                </select>
+                <input
+                  type="submit"
+                  name="submit"
+                  value="Gữi"
+                  id="submit__box"
+                  placeholder=""
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
